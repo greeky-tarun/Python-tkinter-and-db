@@ -1,10 +1,10 @@
 from tkinter import *
 def mclick(event):
-  print("Yes i love you ❤️")
+  print("Mouse got clicked...")
 
 win = Tk()
 win.title('Event Handling')
-label = Label(win, text='love Me',bg='red')
+label = Label(win, text='Click me',bg='red')
 label.pack()
 label.bind('<Button>',mclick)
 win.geometry("300x400+70+60")
