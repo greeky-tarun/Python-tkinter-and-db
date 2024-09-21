@@ -1,0 +1,9 @@
+from tkinter import *
+window = Tk()
+btn = Button(window, text="Red", fg='red')
+btn.place(x=80, y=100)
+btn1 = Button(window, text="Blue", fg='blue')
+btn1.place(x=120, y=100)
+window.title('Hello Tarun')
+window.geometry("300x200+10+10")
+window.mainloop()
